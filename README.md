@@ -1,6 +1,6 @@
 # secret_santa_2018
 
-##Follow these instructions to determine your secret santa! 
+## Follow these instructions to determine your secret santa! 
 
 1) Phenotype your yeast strain for: 
   - MAT locus (Strains will be MATa, MATalpha, or MATa/alpha. No strains are sterile and no strains are autodiploid)
