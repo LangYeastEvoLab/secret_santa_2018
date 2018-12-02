@@ -11,6 +11,6 @@
   
  2) Complete the strain properties text file. 
   -a, alpha, or a/alpha for MAT
-  - + indicate prototrophy
-  - - indicates auxotrophy
+  - (+) indicate prototrophy
+  - (-)indicates auxotrophy
   
