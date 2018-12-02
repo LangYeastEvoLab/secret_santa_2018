@@ -11,6 +11,10 @@
   
  2) Clone this repo to your terminal 
  
+ `git clone https://github.com/LangYeastEvoLab/secret_santa_2018.git` 
+ 
+ `cd secret_santa_2018`
+ 
  
  3) Complete the strain properties text file. 
   -a, alpha, or a/alpha for MAT
@@ -25,5 +29,5 @@
    
    Each set of 3 questions focuses on a different famous (or infamous) geneticist. 
    
-   Find Katie if you have any problems! 
+   Find Katie if you have any problems! Yay secret santa puzzles! 
   
