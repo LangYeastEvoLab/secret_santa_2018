@@ -9,8 +9,21 @@
   - histidine prototrophy
   - methionine (all strains are met+ excet one, which has a note on the plate) 
   
- 2) Complete the strain properties text file. 
+ 2) Clone this repo to your terminal 
+ 
+ 
+ 3) Complete the strain properties text file. 
   -a, alpha, or a/alpha for MAT
   - (+) indicate prototrophy
-  - (-)indicates auxotrophy
+  - (-) indicates auxotrophy
+  
+  4) Run the Determine_santa.R script with updated strain_properties.txt as an argument
+   
+   `Rscript --vanilla Determine_santa.R strain_properties.txt` 
+   
+   If your strain properties file is complete and corresponds to a strain, 3 questions will appear. 
+   
+   Each set of 3 questions focuses on a different famous (or infamous) geneticist. 
+   
+   Find Katie if you have any problems! 
   
