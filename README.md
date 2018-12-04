@@ -15,13 +15,23 @@
  
  `cd secret_santa_2018`
  
+ mac users: `open -a "Textedit" Strain_properties.txt`
+ 
+ windows users: Not sure. Cheat and use your GUI. 
+ 
  
  3) Complete the strain properties text file. 
-  -a, alpha, or a/alpha for MAT
+  - a, alpha, or a/alpha for MAT
   - (+) indicate prototrophy
   - (-) indicates auxotrophy
   
   4) Run the Determine_santa.R script with updated strain_properties.txt as an argument
+  
+  *Note for our windows users - first ensure R is in your path by:  
+  going to Control Panel -> Edit the system environment variables  
+  click on "Environment variables" 
+  Edit "path" on "system variables"
+  "New" and append the path (it should be something like "C:\Program Files\R\R-3.5.1\bin\x64")*
    
    `Rscript --vanilla Determine_santa.R strain_properties.txt` 
    
