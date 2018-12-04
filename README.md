@@ -30,8 +30,8 @@
   *Note for our windows users - first ensure R is in your path by:  
   going to Control Panel -> Edit the system environment variables  
   click on "Environment variables" 
-  Edit "path" on "system variables"
-  "New" and append the path (it should be something like "C:\Program Files\R\R-3.5.1\bin\x64")*
+  Edit "path" on "system variables" "New"  
+  append the path (it should be something like "C:\Program Files\R\R-3.5.1\bin\x64")*
    
    `Rscript --vanilla Determine_santa.R strain_properties.txt` 
    
