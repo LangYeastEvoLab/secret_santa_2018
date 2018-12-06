@@ -34,9 +34,9 @@
   append the path (it should be something like "C:\Program Files\R\R-3.5.1\bin\x64")*
    
    `R` *you should now be in an R environment indicated by a > at the prompt"  
-   `source("secretest_santa.R")`  
-   `strain_properties<- read.delim("strain_properties.txt", header=TRUE, stringsAsFactors=FALSE)`
-   `secretest_santa(strain_properties)`
+  > `source("secretest_santa.R")`  
+  > `strain_properties<- read.delim("strain_properties.txt", header=TRUE, stringsAsFactors=FALSE)`
+  > `secretest_santa(strain_properties)`
    
    If your strain properties file is complete and corresponds to a strain, 3 questions will appear. 
    
