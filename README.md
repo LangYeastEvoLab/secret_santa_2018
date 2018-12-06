@@ -25,7 +25,7 @@
   - (+) indicate prototrophy
   - (-) indicates auxotrophy
   
-  4) Run the Determine_santa.R script with updated strain_properties.txt as an argument
+  4) Enter the following commands 
   
   *Note for our windows users - first ensure R is in your path by:  
   going to Control Panel -> Edit the system environment variables  
@@ -33,7 +33,10 @@
   Edit "path" on "system variables" "New"  
   append the path (it should be something like "C:\Program Files\R\R-3.5.1\bin\x64")*
    
-   `Rscript --vanilla Determine_santa.R strain_properties.txt` 
+   `R` *you should now be in an R environment indicated by a > at the prompt"  
+   `source("secretest_santa.R")`  
+   `strain_properties<- read.delim("strain_properties.txt", header=TRUE, stringsAsFactors=FALSE)`
+   `secretest_santa(strain_properties)`
    
    If your strain properties file is complete and corresponds to a strain, 3 questions will appear. 
    
